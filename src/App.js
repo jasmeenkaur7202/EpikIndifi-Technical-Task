@@ -1,8 +1,10 @@
 import './App.css';
+import ValetParkingDashBoard from './Components/ValetParkingDashBoard.ejs'
 
 function App() {
   return (
-    <div>hi
+    <div>
+      <ValetParkingDashBoard />
     </div>
   );
 }
