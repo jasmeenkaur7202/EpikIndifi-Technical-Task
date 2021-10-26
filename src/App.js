@@ -1,5 +1,5 @@
 import './App.css';
-import ValetParkingDashBoard from './views/ValetParkingDashBoard.ejs'
+import ValetParkingDashBoard from './views/ValetParkingDashBoard.js'
 
 function App() {
   return (

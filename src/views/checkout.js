@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Check-out</title>
-</head>
-<body id="body">
-    <header id="header">
-        <h1>Check-out</h1>
-    </header>
-    <main>
+import React from 'react'
+
+const checkout = () => {
+    return (
         <div id="checkoutform">
             <form name="checkoutform" action="/success">
                 <h2>Vehicle Check-out</h2>
@@ -55,10 +46,11 @@
                     <h1><strong>RS.${= cost}</strong></h1>
                 </div>
                 <div class="center">
-                    <a href="/success?id="${vehicle._id}>Proceed to pay</a>
+                    {/* <a href="/success?id="${vehicle._id}>Proceed to pay</a> */}
                 </div>
             </form>
         </div>
-    </main>
-</body>
-</html>
+    )
+}
+
+export default checkout

@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Check-in</title>
-</head>
-<body id="body">
-    <header id="header">
-        <h1>Vehicle Check-In</h1>
-    </header>
-    <main id="main">
+import React from 'react'
+
+const checkin = () => {
+    return (
         <div id="checkinform">
             <form action="/details" name="checkinform" method="POST">
                 <h2>Vechicle Check-In</h2>
@@ -49,6 +40,7 @@
                 </div>
             </form>
         </div>
-    </main>
-</body>
-</html>
+    )
+}
+
+export default checkin
